@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ploxus</title>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="<?php echo asset_url(); ?>css/style.css">
+	<!--<script type="text/javascript" src="assets/js/script.js"></script>-->
+</head>
+<body>
+	<nav class="top-nav">
+		<div class="navL">
+			<a class="menu-show" id="menu-show">
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</a>
+			<div class="logo"><img src="img/logo.png"></div>
+			<div class="search">
+				<form class="search-form">
+					<fieldset>
+						<input id="search-sub" value="" type="submit"><input id="search-inp" type="text" placeholder="Search...">
+						<div id="search-bg"></div>
+					</fieldset>
+				</form>
+			</div>
+		</div>
+		<div class="navR">
+			<div class="wlcm">Welcome, <a href="#"><span>Momo Nab</span></a>.</div>
+			<div class="profile-img" style='background-image: url("<?php echo asset_url(); ?>img/pt.png");'></div>
+		</div>
+	</nav>
+	<div class="side-bar" id="side-bar">
+		<nav>
+			<ul class="side-menu">
+				<li><a href="#"><i></i><span>New Order</span></a></li>
+				<li><a href="#"><i></i><span>Dashboard</span></a></li>
+				<li><a href="#"><i></i><span>Customer Management</span></a></li>
+				<li><a href="#"><i></i><span>Stock Management</span></a></li>
+				<li><a href="#"><i></i><span>Reporting</span></a></li>
+				<li><a href="#"><i></i><span>Settings &#38; Customisation</span></a></li>
+				<li><a href="#"><i></i><span>Support &#38; Feedback</span></a></li>
+			</ul>
+		</nav>
+	</div><div class="cont">
+
+		<ol class="breadcrumb">
+			<li class="active"><a href="#">Dashboard</a></li>
+		</ol>
+
+		<div class="fullW">
+			<div class="panel-heading">
+				<h9>Some kind of heading</h9>
+			</div>
+		</div>
+		<div class="large"></div>
+		<div class="medium"></div>
+		<div class="small"></div>
+		<div class="tiny"></div>
+		<div class="xLarge"></div>
+	</div>
+</body>
+</html>
